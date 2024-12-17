@@ -1,6 +1,6 @@
 import React from 'react'
 
-const brand = () => {
+const FooterSc = () => {
   return (
     <>
       
@@ -8,4 +8,4 @@ const brand = () => {
   )
 }
 
-export default brand
+export default FooterSc

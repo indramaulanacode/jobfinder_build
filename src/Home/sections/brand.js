@@ -1,11 +1,11 @@
 import React from 'react'
 
-const footer = () => {
+const brand = () => {
   return (
     <>
-      
+      brand
     </>
   )
 }
 
-export default footer
+export default brand

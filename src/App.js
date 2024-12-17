@@ -1,16 +1,21 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router";
-import navbar from "./commponents/navbar"
+
+import { BrowserRouter as Router, Routes,  Route} from 'react-router-dom';
+import NavbarSc from "./commponents/NavbarSc";
 import './App.css';
-import hero from "./Home/hero";
+import Landing from './Home/sections/Landing';
+import FooterSc from './commponents/FooterSc';
 
 function App() {
   return (
   <Router> 
-      <navbar/>
+      <NavbarSc/>
+     
       <Routes>
-        <Route path='/' element={<hero/>} />
+        <Route path='/' element={<Landing/>} />
       </Routes>
+
+      <FooterSc/>
+
    </Router>
  
   );

@@ -9,13 +9,11 @@ function App() {
   return (
   <Router> 
       <NavbarSc/>
-     
       <Routes>
         <Route path='/' element={<Landing/>} />
       </Routes>
 
       <FooterSc/>
-
    </Router>
  
   );
